@@ -12,12 +12,12 @@ export const sampleData = [
         attendees: [
             {
                 id: 'a',
-                name: 'Lavender',
+                displayName: 'Lavender',
                 photoURL: 'https://randomuser.me/api/portraits/men/23.jpg'
             },
             {
                 id: 'b',
-                name: 'Chuck',
+                displayName: 'Chuck',
                 photoURL: 'https://randomuser.me/api/portraits/men/21.jpg'
             }
         ]
@@ -35,12 +35,12 @@ export const sampleData = [
         attendees: [
             {
                 id: 'a',
-                name: 'Lavender',
+                displayName: 'Lavender',
                 photoURL: 'https://randomuser.me/api/portraits/men/23.jpg'
             },
             {
                 id: 'b',
-                name: 'Chuck',
+                displayName: 'Chuck',
                 photoURL: 'https://randomuser.me/api/portraits/men/21.jpg'
             }
         ]

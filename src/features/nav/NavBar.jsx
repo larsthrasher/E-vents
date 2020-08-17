@@ -26,6 +26,7 @@ export default function NavBar({setFormOpen}) {
               funschit
           </Menu.Item>
           <Menu.Item as={NavLink} to='/events' name='Events'/>
+          <Menu.Item as={NavLink} to='/sandbox' name='Sandox'/>
           {authenticated &&
           <Menu.Item as={NavLink} to='/createEvent'>
             <Button
