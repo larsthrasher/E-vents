@@ -7,12 +7,13 @@ import Sandbox from '../../features/sandbox/Sandbox';
 import NavBar from '../../features/nav/NavBar';
 import { Container } from 'semantic-ui-react';
 import { Route, useLocation } from 'react-router-dom';
-
+import ModalManager from '../common/modals/ModalManager';
 export default function App() {
   const { key } = useLocation();
 
   return (
     <>
+      <ModalManager />
       <Route
         exact
         path='/'
