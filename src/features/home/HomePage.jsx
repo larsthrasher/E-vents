@@ -11,7 +11,7 @@ export default function HomePage({history}) {
     >
       <Container>
         <Header as="h1" inverted>
-          <Image size='massive' src='/assets/funschit.png' style={{marginBottom: 12}}/>
+          <Image size='massive' src='/assets/bikeinv.png' style={{marginBottom: 12}}/>
           funschit
         </Header>
         <Button

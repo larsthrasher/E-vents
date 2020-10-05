@@ -17,7 +17,7 @@ export default function NavBar({setFormOpen}) {
             to='/'
             header
           >
-            <img src="/assets/funschit.png" alt="logo" style={{marginRight: 5}}/>
+            <img src="/assets/bikeinv.png" alt="logo" style={{marginRight: 15}}/>
               funschit
           </Menu.Item>
           <Menu.Item as={NavLink} to='/events' name='Events'/>
