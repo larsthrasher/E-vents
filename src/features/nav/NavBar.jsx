@@ -17,17 +17,16 @@ export default function NavBar({setFormOpen}) {
             to='/'
             header
           >
-            <img src="/assets/bikeinv.png" alt="logo" style={{marginRight: 15}}/>
-              funschit
+            <img src="/assets/bikeinv.png" alt="logo"/>
+
           </Menu.Item>
-          <Menu.Item as={NavLink} to='/events' name='Events'/>
-          <Menu.Item as={NavLink} to='/sandbox' name='Sandox'/>
+          <Menu.Item as={NavLink} to='/events' name='funschit'/>
+
           {authenticated &&
           <Menu.Item as={NavLink} to='/createEvent'>
             <Button
-              positive
               inverted
-              content='Create Event'
+              content='new'
             />
           </Menu.Item>}
           {authenticated ? (
